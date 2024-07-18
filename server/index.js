@@ -30,7 +30,7 @@ if (process.env.AWS_LAMBDA_FUNCTION_VERSION) {
   puppeteer = require('puppeteer');
 }
 
-app.use('/', async (req, res) => {
+app.get('/', async (req, res) => {
   res.send('Server running!');
 });
 
