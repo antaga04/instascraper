@@ -37,5 +37,5 @@ Contributions are welcome. Please fork the repository and submit pull requests..
 
 ## Links
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marti%C3%B1o-/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adrian-anta-gil/)
 [![Portfolio](https://img.shields.io/badge/web%20portfolio-%23519Faa.svg?&style=for-the-badge&logoColor=white)](https://adrian-anta.netlify.app/)
