@@ -7,7 +7,7 @@ This repository contains the code for a simple Instagram text scraper applicatio
 - Enter an Instagram URL to scrape text content.
 - Fetches the text from the first `<h1>` tag found on the Instagram page.
 - Displays the fetched text on the web page.
-- Handles errors and notifies users of any issues using [Sonner]('https://sonner.emilkowal.ski/).
+- Handles errors and notifies users of any issues using [Sonner](https://sonner.emilkowal.ski/).
 
 ### Technologies Used
 
