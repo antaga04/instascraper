@@ -13,7 +13,7 @@ const limiter = rateLimit({
   max: 15,
   message: {
     error: 'Too many requests here, please try again later.',
-    info: 'You get 15 requests every 15 minutes.'
+    info: 'You get 15 requests every 15 minutes.',
   },
 });
 
@@ -29,6 +29,10 @@ if (process.env.AWS_LAMBDA_FUNCTION_VERSION) {
 } else {
   puppeteer = require('puppeteer');
 }
+
+app.use('/', async (req, res) => {
+  res.send('Server running!');
+});
 
 app.post('/scrape', async (req, res) => {
   const { url } = req.body;
