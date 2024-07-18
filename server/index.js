@@ -24,7 +24,7 @@ let options = {};
 let puppeteer;
 
 if (process.env.AWS_LAMBDA_FUNCTION_VERSION) {
-  chrome = require('@sparticuz/chromium');
+  chrome = require('chrome-aws-lambda');
   puppeteer = require('puppeteer-core');
 } else {
   puppeteer = require('puppeteer');
@@ -68,6 +68,7 @@ app.post('/scrape', async (req, res) => {
 
     res.json({ text: formattedText });
   } catch (error) {
+    console.error(error);
     res.status(500).json({ error: 'Failed to scrape the URL' });
   }
 });
@@ -75,3 +76,5 @@ app.post('/scrape', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+module.exports = app;
