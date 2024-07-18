@@ -1,4 +1,4 @@
-# Instagram Tesxt Scraper
+# Instagram Text Scraper
 
 This repository contains the code for a simple Instagram text scraper application built using React for the client-side and Node.js (Express) for the server-side. The application allows users to input an Instagram URL and fetch the text content from the caption of the Instagram post.
 
