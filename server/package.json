@@ -12,11 +12,11 @@
   "author": "antaga04",
   "license": "ISC",
   "dependencies": {
-    "chrome-aws-lambda": "^6",
+    "chrome-aws-lambda": "^6.0.0",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "express-rate-limit": "^7.3.1",
-    "puppeteer-core": "^6"
+    "puppeteer-core": "^6.0.0"
   },
   "devDependencies": {
     "puppeteer": "^22.13.1"
