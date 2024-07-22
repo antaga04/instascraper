@@ -99,7 +99,15 @@ button.btn:focus-visible {
     color: #747bff;
   }
 
-  button {
+  button.btn {
     background-color: #f9f9f9;
+  }
+
+  #input-container {
+    background-color: #e0dede;
+  }
+
+  #note {
+    background: #e0dede;
   }
 }
