@@ -48,6 +48,7 @@ app.post('/scrape', async (req, res) => {
 
     res.json({ text: formattedText });
   } catch (error) {
+    console.error(error);
     res.status(500).json({ error: 'Failed to scrape the URL' });
   }
 });
