@@ -22,7 +22,7 @@ function App() {
       return;
     }
 
-    const fetchData = () => axios.post(import.meta.env.VITE_PUBLIC_API_URL, { url });
+    const fetchData = () => axios.post('https://instascraper-api.vercel.app/scrape', { url });
 
     toast.promise(fetchData(), {
       loading: 'Loading...',
